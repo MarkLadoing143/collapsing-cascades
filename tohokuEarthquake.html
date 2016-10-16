@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tohoku Earthquake and Tsunami</title>
+	
+	<script src="includes/jquery-3.1.1.js"></script>
+	<link href="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="includes/theme.css" />
+	
+	<script> 
+		$(function(){
+			$("#includeSidebar").load("includes/sidebar.inc.html"); 
+		});
+    </script> 
+	<script> 
+		$(function(){
+			$("#includeFooter").load("includes/footer.inc.html"); 
+		});
+    </script>
+</head>
+<body>
+	<header>
+		<img src="images/collapsingCascadesLogo.png" alt="Collapsing Cascades" />
+	</header>
+	
+	<div class="container-fluid">
+			<ol class="breadcrumb">
+				<li><a href="index.php">Home</a></li>
+				<li><a href="story.php">Story</a></li>
+				<li class="active">Tohoku Earthquake and Tsunami</li>
+			</ol>
+		<div class="row">
+			<div id="includeSidebar"></div>
+			
+			<div class="col-md-9 col-sm-9">
+				<h2><b>2011 Tohoku Earthquake and Tsunami</b></h2>
+				<div id="skyline">
+					<img src="images/japan01.jpg" class="img-responsive" alt="Tokyo Skyline" />
+					<img src="images/FukushimaFlag.png" class="img-responsive" alt="Flag of Fukushima" />
+					<img src="images/japan02.jpg" class="img-responsive" alt="Nagano Skyline" />
+				</div>
+				<p>
+					<i>Information provided by <a href="http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami">Wikipedia</a></i><br><br>
+					
+					The 2011 Tohoku Earthquake and Tsunami, also known as the Great East Japan Earthquake, occurred on March 11, 2011 at 2:46PM Local time when a Magnitude 9.0 megathrust earthquake some 70 kilometres
+					of the coast of the Tohoku region in Japan. It was the most powerful known earthquake ever to have hit Japan, and the fifth most powerful earthquake 
+					in the world since modern record-keeping began in 1900.<br><br>
+					
+					The earthquake triggered triggered a massive tsunami that reached heights of up to 40 metres in areas near the Iwate Prefecture of Tohoku and, in the case
+					of Sendai, travelled up to 10 kilometres inland. Like the 2004 Boxing Day Tsunami, the tsunami proved to be far deadlier than the earthquake, as the wave
+					swept dozens of towns and cities located along the Japanese coast.<br><br>
+					
+					The resulting tsunami also struck the Fukushima Daiichi Nuclear Power Plant, knocking out crucial emergency systems and causing the partical meltdown
+					of three of plant's six reactors. The meltdowns quickly became the second worst nuclear disaster ever to occur after the Chernobyl Disaster, and led to
+					the creation of a 20km exclusion zone around the destroyed plant within the Fukushima Prefecture.<br><br>
+					
+					In the aftermath, a report by Japanese authorites confirmed 15,884 deaths, 6,147 injuries, and 2,636 missing across twenty prefectures, 
+					as well as 127,290 buildings being totally collapsed, 272,788 buildings 'half collapsed', and another 747,989 buildings being partially damaged.
+				</p>
+			</div>
+
+		</div>
+	</div>
+	
+	<div id="includeFooter"></div>
+</body>
+</html>

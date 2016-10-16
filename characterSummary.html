@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Characters</title>
+	
+	<script src="includes/jquery-3.1.1.js"></script>
+	<link href="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="includes/theme.css" />
+	
+	<script> 
+		$(function(){
+			$("#includeSidebar").load("includes/sidebar.inc.html"); 
+		});
+    </script> 
+	<script> 
+		$(function(){
+			$("#includeFooter").load("includes/footer.inc.html"); 
+		});
+    </script>
+</head>
+<body>
+	<header>
+		<img src="images/collapsingCascadesLogo.png" alt="Collapsing Cascades" />
+	</header>
+	
+	<div class="container-fluid">
+			<ol class="breadcrumb">
+				<li><a href="index.php">Home</a></li>
+				<li class="active">Characters</li>
+			</ol>
+		<div class="row">
+			<div id="includeSidebar"></div>
+			
+			<div class="col-md-9 col-sm-9">
+			<h2><b>Main Characters</b></h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Character</th>
+						<th scope="col">Information</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>
+						<h4><b>Oliver Lockwood</b></h4>
+						<img src="images/bio1icon.png" alt="Oliver Icon" />
+					</td>
+				<td>
+					<table class="table">
+						<tr><td>Birthdate: March 22, 1984</td></tr>
+						<tr><td>Birthplace: Victoria, British Columbia, Canada</td></tr>
+						<tr><td>Nationality: English Canadian</td></tr>
+						<tr><td>ADDITIONAL INFO <a href="bio1.html"><b>HERE</b></a></td></tr>
+					</table>
+				</td>
+				</tr>
+				<tr>
+					<td>
+						<h4><b>Tim Henderson</b></h4>
+						<img src="images/bio2icon.png" alt="Tim Icon" />
+					</td>
+				<td>
+					<table class="table">
+						<tr><td>Birthdate: September 2, 1998</td></tr>
+						<tr><td>Birthplace: Winnipeg, Manitoba, Canada</td></tr>
+						<tr><td>Nationality: Scottish Canadian</td></tr>
+						<tr><td>ADDITIONAL INFO <a href="bio2.html"><b>HERE</b></a></td></tr>
+					</table>
+				</td>
+				</tr>
+				</tbody>
+			</table>
+			</div>
+
+		</div>
+	</div>
+	
+	<div id="includeFooter"></div>
+</body>
+</html>

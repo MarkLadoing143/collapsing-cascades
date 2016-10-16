@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tim Henderson</title>
+	
+	<script src="includes/jquery-3.1.1.js"></script>
+	<link href="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="includes/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="includes/theme.css" />
+	
+	<script> 
+		$(function(){
+			$("#includeSidebar").load("includes/sidebar.inc.html"); 
+		});
+    </script> 
+	<script> 
+		$(function(){
+			$("#includeFooter").load("includes/footer.inc.html"); 
+		});
+    </script>
+</head>
+<body>
+	<header>
+		<img src="images/collapsingCascadesLogo.png" alt="Collapsing Cascades" />
+	</header>
+	
+	<div class="container-fluid">
+			<ol class="breadcrumb">
+				<li><a href="index.php">Home</a></li>
+				<li><a href="characterSummary.php">Characters</a></li>
+				<li class="active">Tim Henderson</li>
+			</ol>
+		<div class="row">
+			<div id="includeSidebar"></div>
+			
+			<div class="col-md-9 col-sm-9">
+				<h2><b>Timothy Cruickshank Henderson</b></h2>
+				<div id="bio">
+				<img src="images/bio2.png" class="img-responsive" alt="Tim Bio Image" />
+				</div>
+				<p>
+					Originally from Winnipeg, Manitoba, Tim is an upbeat, bubbly guy who always seems optimistic and with few things to worry about in life.
+					Tim really just embraces life and all of what it has to offer by being a weird, happy dork who really loves video games, anime, and travel.<br><br>
+					
+					Now a junior in Computer Engineering at the University of British Columbia, Tim has been living in Vancouver with his mother who works full-time as a nurse,
+					while his father serves overseas with the Canadian Royal Forces.<br><br>
+					
+					But while Tim doesn't really have any issues to deal with, that in itself is the problem. Tim often fails to take things seriously, ignorant of
+					his future and often too chipper to see the problems in the world, nor those actually taking place in his own life. Tim seemingly tries to bury his
+					problems, including a potential scenario of his parents divorcing, by ignoring them and acting positively in hopes of things working out themselves.<br><br>
+					
+					But as the Pacifc Northwest Disater unfolds, Tim is going to have face facts and quickly learn that not all in the world is fair and right, 
+					and that he must be prepared for that because as the earthquake proves, optimism can only get you so far before reality hits back...
+				</p>
+			</div>
+
+		</div>
+	</div>
+	
+	<div id="includeFooter"></div>
+</body>
+</html>
