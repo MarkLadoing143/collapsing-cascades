@@ -132,11 +132,13 @@ table img{
 	margin: 0.1em;
 }
 .thumbnail{
-  position: relative;
-  max-width: 200px;
-  max-height: 200px;
-  overflow: hidden;
-  padding-bottom:100%;
+	background: transparent;
+	border: none;
+	position: relative;
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	padding-bottom:100%;
 }
 .thumbnail img{
 	position: relative;
