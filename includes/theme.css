@@ -89,7 +89,7 @@ header img{
 }
 .home img{
 	display: inline-block;
-	max-width:100%;
+	max-width:auto;
 	max-height:330px;
 	margin-bottom: 1em;
 }
