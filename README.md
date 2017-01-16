@@ -1,5 +1,5 @@
 # Collapsing Cascades
 # 
-# A personal project site that details a fictitious series about a group of survivor trying to get through the aftermath of a massive earthquake in Vancouver, Canada in the year 2018.
+# A personal web project that details a fictional series about a group of survivors trying to get through the aftermath of a massive earthquake in Vancouver, Canada.
 #
-# WIP: still need to add fix functionality
+# WIP: This site is imcomplete with certain site components still incomplete and content and art that is in need of updating.
