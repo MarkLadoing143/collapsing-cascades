@@ -21,6 +21,9 @@
 	color: black;
 	font-weight: bold;
 }
+.indent{
+	padding-left: 2em;
+}
 .list-group-item{
 	border-radius: 0px;
 	background-color: #FFD800;
@@ -89,7 +92,7 @@ header img{
 }
 .home img{
 	display: inline-block;
-	max-width:auto;
+	width: auto;
 	max-height:330px;
 	margin-bottom: 1em;
 }
@@ -120,10 +123,32 @@ table img{
 	width: 150px;
 	margin: 1em;
 }
-#bio img{
+/* #bio img{
 	height: auto;
 	width: 800px;
 	margin: 1em;
+} */
+#bio img{
+	margin-bottom: 1em;
+}
+#infoPanel{
+	color: black;
+	background-color: #FFD800;
+	border-color: transparent; 
+}
+#infoPanel .panel-body{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 9pt;
+	line-height: 200%;
+}
+#infoPanel .panel-body a{
+	color: #0000A0;
+}
+#infoSum p a{
+	color: #FFD800;
 }
 #skyline img{
 	display: inline;
