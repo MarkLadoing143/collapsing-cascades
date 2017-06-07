@@ -1,4 +1,4 @@
-# Collapsing Cascades - Work in Progress
+# Collapsing Cascades
 Link: https://markladoing143.github.io/collapsing-cascades/
 
 A personal web project which details a fictional series about a group of survivors trying to get through the aftermath of a massive earthquake in Vancouver, Canada.
